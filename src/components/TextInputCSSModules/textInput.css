@@ -1,0 +1,9 @@
+.error{
+    color: red;
+}
+.inputError{
+    border: 1px solid red;
+}
+.fieldset{
+    margin-bottom: 16px;
+}
