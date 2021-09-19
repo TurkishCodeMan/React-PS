@@ -39,7 +39,7 @@
     "prebuild:lib": "rimraf lib",
     "build:css": "cpx \"./src/utils/**/*.js\" ./lib/utils",
     "build:utils": "cpx \"./src/components/**/*.css\" ./lib",
-    "build:commonjs": "cross-env NODE_ENV=production babel ./src/components --out-dir ./lib --ignore test.js",
+    "build:commonjs": "cross-env NODE_ENV=production babel ./src/components --out-dir ./lib/components --ignore test.js",
     "build:lib": "npm run build:commonjs && npm run build:css && npm run build:utils",
     "prepublish": "npm run build:lib"
   },
