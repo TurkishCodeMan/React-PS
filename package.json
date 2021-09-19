@@ -1,12 +1,12 @@
 {
   "name": "react-lib-turkishcodeman",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "./lib/components/index.js",
   "engines": {
     "node": ">=4.0.0"
   },
   "author": {
-    "name": "Hüseyin Altıkulaç",
+    "name": "Huseyin Altıkulac",
     "email": "huseyinaltikulac4@gmail.com",
     "url": "http://huseyinwallace.herokuapp.com"
   },
@@ -19,7 +19,6 @@
     "react-component",
     "toolkit"
   ],
-  "private": false,
   "dependencies": {
     "@babel/runtime": "^7.15.4",
     "react": "^17.0.2",
