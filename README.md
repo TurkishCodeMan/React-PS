@@ -4,7 +4,7 @@ Reusable Component Library By TurkishCodeMan
 
 ## Install
 ```
- npm install ps-react
+ npm install react-lib-turkishcodeman
  ```
 
  # Docs
