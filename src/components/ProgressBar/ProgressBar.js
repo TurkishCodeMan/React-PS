@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import { getWidthAsPercentOfTotalWidth } from "../../utils/percentUtils";
-import React from "react";
 function ProgressBar({ percent, width, height }) {
 
     function getColor(percent) {
