@@ -1,6 +1,6 @@
 {
   "name": "react-lib-turkishcodeman",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./lib/index.js",
   "engines": {
     "node": ">=4.0.0"
@@ -119,6 +119,12 @@
         "@babel/preset-env",
         {
           "modules": "commonjs"
+        }
+      ],
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
         }
       ],
       "react-app"
