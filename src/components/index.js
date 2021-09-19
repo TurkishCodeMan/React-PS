@@ -3,4 +3,3 @@ export { default as ProgressBar } from "./ProgressBar";
 export { default as TextInput } from "./TextInput";
 export { default as Label } from "./Label";
 export { default as PasswordInput } from "./PasswordInput";
-export { default as TextInput } from "./TextInput";
